@@ -1,5 +1,7 @@
 # 淘宝用户行为交互式分析仪表盘
 
+[![Tests](https://github.com/ZYZ-TXT430/taobao-user-behavior-dashboard/actions/workflows/tests.yml/badge.svg)](https://github.com/ZYZ-TXT430/taobao-user-behavior-dashboard/actions/workflows/tests.yml)
+
 以阿里天池淘宝用户行为数据为基础的本地分析应用。Python 负责分块清洗，DuckDB 负责持久化与分析，Streamlit 和 Plotly 提供可交互的中文仪表盘。原始行为仅包括浏览、收藏、加购、下单；数据集不提供订单金额，因此 RFM 的 M 使用下单次数，不代表销售额。
 
 ## 技术栈
