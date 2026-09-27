@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local dataset and generated analytical database
+UserBehavior.csv
+(sample)sam_tianchi_mum_baby_trade_history.csv
+*.duckdb
+*.duckdb.wal
+*.download.tmp
+
+# Local Streamlit secrets
+.streamlit/secrets.toml
